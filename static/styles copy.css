@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(to right, #ff9933, #cc3300);
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+.event-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #f9c802, #e53935); /* optional festive gradient */
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  width: 80px;
+  height: auto;
+}
+
+.header-title {
+  font-size: 2rem;
+  text-align: center;
+  flex: 1;
+  color: white;
+  margin: 0 10px;
+}
+
+header {
+  background: linear-gradient(to right, #ff9933, #cc3300);
+  color: #F2D63A;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;         /* Removes extra space below header */
+  padding-bottom: 10px;
+}
+
+.register {
+  padding: 20px;
+  text-align: center;
+}
+
+.form-link {
+  font-size: 2.2rem;              /* Larger font for visibility */
+  color: #F2D63A;                 /* Deep festive red */
+  font-weight: bold;             /* Emphasizes importance */
+  text-decoration: none;         /* Removes default underline */
+  font-family: 'Noto Sans', sans-serif; /* Bilingual-friendly font */
+  padding: 6px 10px;             /* Adds clickable space */
+  border-radius: 4px;            /* Soft edges */
+  transition: all 0.3s ease;     /* Smooth hover effect */
+  display: inline-block;         /* Ensures padding applies properly */
+}
+
+.form-link:hover {
+  color: #ff8c00;                /* Saffron-orange hover color */
+  text-decoration: underline;   /* Adds underline on hover */
+  background-color: #fff8dc;    /* Light festive glow */
+}
+
+main {
+  margin-top: 0;            /* Removes extra space above main */
+  padding-top: 10px;        /* Optional: fine-tune spacing */
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  header {
+    font-size: 1em;
+  }
+
+  .intro {
+    font-size: 6em;
+  }
+
+  .event-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-logo {
+    width: 60px;
+    margin: 5px 0;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+}
